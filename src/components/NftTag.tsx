@@ -1,4 +1,4 @@
-import { Avatar, Circle, HStack, Box, Text } from "@chakra-ui/react";
+import { Avatar,HStack, Box, Text } from "@chakra-ui/react";
 import { Link1 } from "iconsax-react";
 interface props {
   authorName: string;

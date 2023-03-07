@@ -1,6 +1,6 @@
 import { Center, Text, Progress, HStack, Box } from "@chakra-ui/react";
 import { Ethereum } from "iconsax-react";
-import React from "react";
+
 
 export default function CardContent({
   saleEnds,

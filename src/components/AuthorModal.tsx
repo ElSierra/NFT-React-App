@@ -1,9 +1,5 @@
 import {
   Avatar,
-  Circle,
-  HStack,
-  Box,
-  Text,
   Tag,
   TagLabel,
 } from "@chakra-ui/react";

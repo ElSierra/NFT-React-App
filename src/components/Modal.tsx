@@ -2,15 +2,10 @@ import {
   Modal,
   ModalOverlay,
   ModalContent,
-  ModalHeader,
-  ModalFooter,
   ModalBody,
   ModalCloseButton,
-  Box,
-  Button,
-  useDisclosure,
 } from "@chakra-ui/react";
-import AlturaButton from "./Button";
+
 import NFTModalContent, { nftProps } from "./NFTModalContent";
 
 interface nftModalProps extends nftProps {
@@ -57,8 +52,6 @@ export default function NFTModal({
               nftTitle={nftTitle}
             />
           </ModalBody>
-
-         
         </ModalContent>
       </Modal>
     </>

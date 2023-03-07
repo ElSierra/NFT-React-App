@@ -1,18 +1,7 @@
-// Chakra imports
-import {
-  Box,
-  Text,
-  Center,
-  Progress,
-  HStack,
-  useDisclosure,
-} from "@chakra-ui/react";
-
-import { useState } from "react";
+import { Box, useDisclosure } from "@chakra-ui/react";
 
 import NftTag from "./NftTag";
 
-import { Ethereum } from "iconsax-react";
 import NFTModal from "./Modal";
 import { nftProps } from "./NFTModalContent";
 import CardContent from "./CardContent";
@@ -55,7 +44,6 @@ export default function NFT({
         cursor="pointer"
         height={"400px"}
         border={"1px solid rgba(255,255,255,0.2)"}
-      
         bg={"rgb(30, 30, 30, 0.5)"}
         borderRadius="2xl"
         backdropFilter={"blur(10px)"}
@@ -84,7 +72,7 @@ export default function NFT({
             nftTitle={nftTitle}
           />
         </Box>
-   <CardContent isHome saleEnds={saleEnds} topBid={topBid}/>
+        <CardContent isHome saleEnds={saleEnds} topBid={topBid} />
       </Box>
     </>
   );

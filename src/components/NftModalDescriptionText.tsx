@@ -1,5 +1,5 @@
 import { HStack, Box, Text, Tag, TagLabel } from "@chakra-ui/react";
-import { User } from "iconsax-react";
+
 
 export default function NftModalDescriptionText({
   icon,
