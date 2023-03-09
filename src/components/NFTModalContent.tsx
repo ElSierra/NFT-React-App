@@ -15,6 +15,7 @@ export interface nftProps {
   saleEnds: string;
   nftTitle: string;
   nftLink: string;
+  youtubeLink? : string
 }
 export default function NFTModalContent({
   nftImage,

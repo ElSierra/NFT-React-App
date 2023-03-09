@@ -12,6 +12,7 @@ export const nftCollection = [
     saleEnds: "April 6, 2023",
     nftTitle: "Doodle #2287",
     authorName: "BananazVault",
+    youtubeLink: "https://www.youtube.com/watch?v=sv9TaQ5z9jw",
   },
   {
     nftLink:
@@ -26,6 +27,7 @@ export const nftCollection = [
     saleEnds: "April 6, 2023",
     nftTitle: "Doodle #2287",
     authorName: "BananazVault",
+    youtubeLink: "",
   },
   {
     nftLink:
@@ -40,6 +42,7 @@ export const nftCollection = [
     saleEnds: "April 6, 2023",
     nftTitle: "Doodle #2287",
     authorName: "BananazVault",
+    youtubeLink: "",
   },
   {
     nftLink:
@@ -54,6 +57,7 @@ export const nftCollection = [
     saleEnds: "April 6, 2023",
     nftTitle: "Mystery Moca",
     authorName: " C6C4B7",
+    youtubeLink: "",
   },
   {
     nftLink:
@@ -68,6 +72,7 @@ export const nftCollection = [
     saleEnds: "April 6, 2023",
     nftTitle: "Doodle #2287",
     authorName: "BananazVault",
+    youtubeLink: "",
   },
   {
     nftLink:
@@ -82,6 +87,7 @@ export const nftCollection = [
     saleEnds: "April 6, 2023",
     nftTitle: "Doodle #2287",
     authorName: "BananazVault",
+    youtubeLink: "",
   },
   {
     nftLink:
@@ -96,6 +102,7 @@ export const nftCollection = [
     saleEnds: "April 6, 2023",
     nftTitle: "Mystery Moca",
     authorName: " C6C4B7",
+    youtubeLink: "",
   },
   {
     nftLink:
@@ -110,5 +117,23 @@ export const nftCollection = [
     saleEnds: "April 6, 2023",
     nftTitle: "Doodle #2287",
     authorName: "BananazVault",
+    youtubeLink: "",
+  },
+];
+export const adNftCollection = [
+  {
+    nftLink:
+      "https://opensea.io/assets/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/2287",
+    nftImage:
+      "https://i.seadn.io/gcs/files/8de2df5532b6c8d668f6f2d40520a34e.png?auto=format&w=1000",
+    authorImage:
+      "https://i.seadn.io/gae/7B0qai02OdHA8P_EOVK672qUliyjQdQDGNrACxs7WnTgZAkJa_wWURnIFKeOh5VTf8cfTqW3wQpozGedaC9mteKphEOtztls02RlWQ?auto=format&w=256",
+    desc: "A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors",
+    address: "0x6859b69E779ba39C4c2ca964C1aAf17501cFcedc",
+    topBid: "5.195 ETH",
+    saleEnds: "April 6, 2023",
+    youtubeLink: "https://www.youtube.com/watch?v=sv9TaQ5z9jw",
+    nftTitle: "Doodle",
+  
   },
 ];
